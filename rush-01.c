@@ -12,7 +12,7 @@
 
 #include <unistd.h>
 
-//void rush01(char ** matrix); 
+void rush01(char ** matrix); 
 
 int main (int argc, char *argv[])
 {
