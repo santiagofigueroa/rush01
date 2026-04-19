@@ -15,7 +15,6 @@
 
 void print_grid();
 
-<<<<<<<< HEAD:initial_array.c
 void	rush01(char *input)
 {
 	int grid[4][4] = {
@@ -27,8 +26,6 @@ void	rush01(char *input)
 
 	(void)input; 
 	print_grid(grid);
-========
->>>>>>> d5745c6aba90424c328fe1ab9a93c29ecbd161fa
 
 void	fill_views(int views[16], int top[4], int bottom[4], int left[4], int right[4])
 {
@@ -43,8 +40,4 @@ void	fill_views(int views[16], int top[4], int bottom[4], int left[4], int right
 		right[i] = views[i + 12];
 		i++;
 	}
-<<<<<<< HEAD
-=======
->>>>>>>> d5745c6aba90424c328fe1ab9a93c29ecbd161fa:ft_fill_views.c
->>>>>>> d5745c6aba90424c328fe1ab9a93c29ecbd161fa
 }
