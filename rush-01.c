@@ -10,20 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include<stdlib.h>
-#include<stdio.h> 
+#include <unistd.h>
 
 //void rush01(char ** matrix); 
 
 int main (int argc, char *argv[])
 {
-	if (argc > 1) {
-        printf("%s\n", argv[1]);
-    }
-	//Error handling. 
-	
-	//printf("%s",args);
-    //printf("%s",args);
-	rush01(argv); 
+if (argc != 2 || argv == NULL )
+	{
+		write(1, "Error\n", 6);
+		return (1);
+	}
+
+	rush01(argv[1]);
 	return (0);
 } 
