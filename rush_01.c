@@ -9,15 +9,11 @@
 /*   Updated: 2026/04/18 21:19:34 by safiguer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<"">
- 
+
 void	ft_putchar(char c);
 int		parse_input(char *str, int views[16]);
-void	fill_views(int views[16], int top[4], int bottom[4],
-				int left[4], int right[4]);
-int		solve(int grid[4][4], int row, int col,
-			int top[4], int bottom[4],
-			int left[4], int right[4]);
+void	fill_views(int views[16], int top[4], int bottom[4], int left[4], int right[4]);
+int		solve(int grid[4][4], int row, int col,	int top[4], int bottom[4], int left[4], int right[4]);
 void	print_grid(int grid[4][4]);
 
 void	rush01(char *input)
